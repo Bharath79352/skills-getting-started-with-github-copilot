@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>${details.description}</p>
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
+                    <div class="participants">
+            <h5>Participants</h5>
+            <ul class="participants-list">
+              <li>John Smith</li>
+              <li>Sarah Johnson</li>
+              <li>Michael Chen</li>
+            </ul>
+          </div>
         `;
 
         activitiesList.appendChild(activityCard);
